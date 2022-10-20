@@ -57,7 +57,7 @@
             </div>
             <div class="col-12 col-lg-5 text-center pt-4 order-0 order-lg-1 mb-4 mb-lg-0">
                 <img src="{{ \Illuminate\Support\Facades\Storage::url($city->coa_path) }}">
-                <h2 class="text-primary fw-bold">{{ $city->name }}</h2>
+                <h2 class="text-primary fw-bold mt-3">{{ $city->name }}</h2>
             </div>
         </div>
     </div>
